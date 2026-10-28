@@ -1,0 +1,10 @@
+.vs/
+/config.php
+/database.sql
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+/assets/videos/
+/assets/images/
