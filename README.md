@@ -1,92 +1,55 @@
 ﻿
-# ≡ƒîì GlobeTrek Adventures
+# GlobeTrek Adventures
 
 A web-based Travel and Tourism Management System developed using PHP, MySQL, HTML, CSS, and JavaScript.
 
-## ≡ƒôî Project Overview
+## Project Overview
 
-GlobeTrek Adventures provides a platform for customers to explore travel packages, make bookings, and manage their reservations.
+GlobeTrek Adventures is a travel and tourism management platform that allows customers to explore travel packages, make bookings, and manage their reservations.
 
-The system includes separate functionality for customers, staff, and administrators.
+The system provides separate functionality for customers, staff members, and administrators, supporting travel package management, booking operations, and customer services.
 
-## Γ£¿ Key Features
+## Key Features
 
-### Customer
-- Account registration and login
+### Customer Features
+- User registration and login
 - Browse and search travel packages
-- View detailed travel package information
-- Book travel packages
+- View detailed package information
+- Make travel bookings
 - Track bookings through a customer dashboard
-- Submit contact inquiries
+- Submit inquiries through the contact page
 
-### Staff
+### Staff Features
 - Manage travel packages
 - View and manage customer bookings
 - Review customer inquiries
 
-### Administrator
+### Administrator Features
 - Dashboard with booking and sales statistics
 - User management
 - Staff account creation
-- Travel package and booking monitoring
+- Travel package management
+- Booking monitoring
+- Sales reporting
 
-### Payment
+### Payment Features
 - Demonstration payment workflow
 - Payment records and booking status updates
+- Payment information displayed in dashboards
 
-**Note:** Payment processing is simulated. No real payment gateway is integrated.
+**Note:** The payment functionality is simulated for educational purposes. No real payment gateway is integrated.
 
-## ≡ƒ¢á Technologies Used
+## Technologies Used
 
-- Frontend: HTML5, CSS3, JavaScript
-- Backend: PHP
-- Database: MySQL
-- Development Environment: XAMPP
-- Version Control: Git and GitHub
+| Category | Technologies |
+|---|---|
+| Frontend | HTML5, CSS3, JavaScript |
+| Backend | PHP |
+| Database | MySQL |
+| Development Environment | XAMPP |
+| Version Control | Git, GitHub |
 
-## ≡ƒôé Project Structure
-
-- `assets/` - CSS, JavaScript, images, and media
-- `partials/` - Shared page components
-- `index.php` - Home page
-- `packages.php` - Travel packages
-- `booking.php` - Booking functionality
-- `login.php` - User authentication
-- `register.php` - Registration
-- `customer-dashboard.php` - Customer dashboard
-- `staff-dashboard.php` - Staff dashboard
-- `admin-dashboard.php` - Administrator dashboard
-
-## ≡ƒÆ╗ Local Development
-
-1. Install XAMPP.
-2. Place the project inside the `htdocs` directory.
-3. Start Apache and MySQL.
-4. Create the `globetrek_db` database.
-5. Import the local database SQL file.
-6. Configure a local `config.php` with database connection settings.
-7. Open `http://localhost/globetrek-clean/`.
-
-**Note:** Database credentials and the local SQL dump are excluded from this public repository. A sanitized setup example and database schema will be added separately.
-
-## ≡ƒöÉ Security Notes
-
-- Password hashing and verification
-- Role-based access to application features
-- Prepared statements in database operations
-- Local database credentials excluded from version control
-
-This is an educational project and requires further security review before production deployment.
-
-## ≡ƒæ⌐ΓÇì≡ƒÆ╗ Developer
-
-Hansanee Sewwandi
-
-Software Engineering Undergraduate
-
-[GitHub Profile](https://github.com/hansaneesewwandi)
-
-## ðŸ“¸ Project Screenshots
+## Project Screenshots
 
 ### Homepage
 
@@ -107,3 +70,103 @@ Software Engineering Undergraduate
 ### Admin Dashboard
 
 ![GlobeTrek Admin Dashboard](docs/screenshots/admin-dashboard.png)
+
+## Project Structure
+
+```text
+globetrek-adventures/
+|
+|-- assets/
+|   |-- css/
+|   |-- images/
+|   |-- js/
+|   |-- videos/
+|
+|-- partials/
+|   |-- header.php
+|   |-- footer.php
+|
+|-- docs/
+|   |-- screenshots/
+|
+|-- index.php
+|-- about.php
+|-- packages.php
+|-- package-details.php
+|-- booking.php
+|-- payment.php
+|-- contact.php
+|-- login.php
+|-- register.php
+|-- logout.php
+|-- customer-dashboard.php
+|-- staff-dashboard.php
+|-- admin-dashboard.php
+|-- manage-package.php
+|-- delete-package.php
+|-- config.example.php
+|-- .gitignore
+|-- README.md
+```
+
+## Local Installation
+
+### Requirements
+
+- XAMPP with Apache and MySQL
+- PHP
+- Web browser
+
+### Setup Instructions
+
+1. Install XAMPP on your computer.
+2. Clone or download this repository.
+3. Place the project folder inside the XAMPP `htdocs` directory.
+4. Start Apache and MySQL using the XAMPP Control Panel.
+5. Create a MySQL database named `globetrek_db`.
+6. Import the local database SQL file when available.
+7. Create a local `config.php` using `config.example.php` as a reference.
+8. Configure the database connection.
+9. Open the application using your local project folder URL.
+
+Example:
+
+`http://localhost/globetrek-adventures/`
+
+**Note:** The database dump and local database credentials are excluded from this public repository. A sanitized database schema is planned for a future update.
+
+## Security Notes
+
+The project includes authentication and role-based functionality, with database operations and access restrictions implemented in the application.
+
+- Password hashing and verification
+- Role-based user functionality
+- Database operations using prepared statements
+- Local database credentials excluded from Git version control
+
+This is an educational project and requires additional security testing and review before production deployment.
+
+## Project Status
+
+**Status:** Academic Project / Portfolio Demonstration
+
+The application has been developed for educational purposes and local testing.
+
+Future improvements may include:
+- Additional validation and security enhancements
+- Responsive design improvements
+- Deployment using PHP and MySQL hosting
+- Automated testing
+- Improved database setup documentation
+
+## Developer
+
+**Hansanee Sewwandi**
+
+Software Engineering Undergraduate
+
+[GitHub Profile](https://github.com/hansaneesewwandi)
+
+---
+
+**GlobeTrek Adventures — Travel and Tourism Management System**
